@@ -37,9 +37,9 @@ public class GameManager : MonoBehaviour
         if (arrowIndex >= spawnNumber)
         {
             if (swipedArrow > spawnNumber / 2)
-                LevelFinish(true);
+                this.Wait(1,()=> LevelFinish(true));
             else
-                LevelFinish(false);
+                this.Wait(1, () => LevelFinish(false));
         }
     }
 
