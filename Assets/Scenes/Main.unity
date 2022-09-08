@@ -4323,7 +4323,7 @@ MonoBehaviour:
   spawnParent: {fileID: 2120568906}
   roller: {fileID: 508559167}
   arrowPefab: {fileID: 3844377824364891471, guid: ba49774087a6f9b41a71680253bda22c, type: 3}
-  spawnNumber: 20
+  spawnNumber: 10
   speed: 1.5
   currentArrowDirection: 4
   girlAnimator: {fileID: 663796451}
